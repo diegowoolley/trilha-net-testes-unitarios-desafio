@@ -20,7 +20,7 @@ namespace TestesUnitarios.Desafio.Console.Services
             return listaMultiplicada;
         }
 
-        public int RetornarMaiorNumeroLista(List<int> lista)
+        public int RetornarMaiorNumeroLista(List<int> lista, int numero)
         {
             return lista.Max();
         }
